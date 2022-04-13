@@ -4,10 +4,6 @@ import {
   emailSignInStart,
   googleSignInStart,
 } from "../../store/user/user.action";
-import {
-  signInAuthUserWithEmailAndPassword,
-  signInWithGooglePopup,
-} from "../../utils/firebase/firebase.utils";
 import Button, { BUTTON_TYPES } from "../button/button.component";
 import FormInput from "../form-input/form-input.component";
 
