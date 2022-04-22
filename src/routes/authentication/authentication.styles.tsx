@@ -5,4 +5,10 @@ export const AuthContainer = styled.div`
   width: 900px;
   justify-content: space-between;
   margin: 30px auto;
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+  }
 `;
